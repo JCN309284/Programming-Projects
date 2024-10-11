@@ -1,0 +1,92 @@
+body {
+ font-size: 20px;
+ background-color: rgb(252, 242, 239);}
+
+h3 {
+ background-color: rgb(68, 68, 68);
+ color: white;
+ text-align: center;
+}
+
+form {padding: 20%;}
+
+fieldset {background-color: white;}
+
+label , p.list {text-align: left;
+padding-left: 5%;}
+
+p {text-align: center;}
+
+div.a {
+ text-align: right;
+ color: rgb(82, 82, 82);
+ padding-right: 3%;
+ padding-top: 2%;
+}
+
+div.b {
+ text-align: left;
+}
+
+div.c {text-align: left; margin-bottom: -25px;
+}
+
+div.d {padding-right: 23%;}
+
+
+
+input.one {border-top: hidden;border-left: hidden;border-right: hidden;width: 55%;}
+
+input.two {border-top: hidden;border-left: hidden;border-right: hidden;width: 10%;}
+
+input.three {border-top: hidden;border-left: hidden;border-right: hidden;width: 77%;}
+
+input.four {border-top: hidden;border-left: hidden;border-right: hidden;width: 34%;}
+
+input.five {border-top: hidden;border-left: hidden;border-right: hidden;width: 19%;}
+
+input.six {border-top: hidden;border-left: hidden;border-right: hidden;width: 15%;
+}
+
+input.seven {border-top: hidden;border-left: hidden;
+border-right: hidden;width: 27%;
+}
+
+input.eight {border-top: hidden;border-left: hidden;border-right: hidden;width: 85%;margin-left: 4.7%;}
+
+input.nine {border-top: hidden;border-left: hidden;border-right: hidden;width: 32%;}
+
+input.ten {border-top: hidden; border-left: hidden; border-right: hidden;width: 45%;}
+
+input.eleven {border-top: hidden; border-left: hidden;
+ border-right: hidden;
+width: 29%;}
+
+input.twelve {border-top: hidden;
+border-left:hidden;
+border-right:hidden;
+width: 36%;}
+
+input.thirteen {border-top: hidden; 
+border-left:hidden;
+border-right:hidden;
+width: 45%;}
+
+input.aside label.aside {padding-left: 20%;
+}
+
+p.under {word-spacing: 185px;
+padding-right: 20%;
+padding-top: 4px; margin-top: auto;}
+
+p.over { word-spacing: 10px;
+ padding-right: 1%;
+ padding-top: 4px;
+ margin-top: auto;
+}
+
+p.solid {border-style: solid hidden;
+color: rgb(112, 112, 112);
+border-width: 2px;
+background-color:rgb(252, 242, 239);
+margin-top: -2px;}
