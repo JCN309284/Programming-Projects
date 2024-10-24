@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<a href="index.html">first page</a>
+<a href="second.html">Second page</a>
+<a href="third.html">Third page</a>
+
+<style>
+ body {
+  background-color: rgb(190, 190, 190);
+  color: rgb(233, 41, 41);
+ }
+</style>
+
+<script>
+
+// Data Types: underfined, null, boolean, string, symbol, number, and object
+
+ var myName = "Jake"
+
+ myName = 8
+
+ let ourName = "VisualStudioCode"
+
+ const pi = 4.12
+
+ // putting the variables in the console log
+
+ var a;
+ var b = 2;
+ console.log(a)
+ a = 7;
+
+ b = a;
+
+ console.log(a)
+
+ var a = 9;
+
+ // Initialize these three variables
+
+ var a = 9;
+
+ var b = 10;
+
+ var c = "I am a";
+
+ // Do not change code below this line
+
+ a = a + 3;
+
+ b = b + 6;
+
+ c = c + " String!";
+ console.log(c)
+
+ // Capitalization is important  
+ var studylyCapVar;
+ var properCamelCase;
+ var titleCaseOver;
+
+ studylyCapVar = 10;
+ properCamelCase = "A String";
+ titleCaseOver = 8000;
+ console.log(studylyCapVar)
+
+ // variable mathmatics
+
+ var sum = 12 + 12;
+ console.log(sum)
+
+ var difference = 34 - 11;
+
+ var product = 5 * 2;
+
+ var quotient = 32 / 10;
+
+ // decimals and shortcuts
+
+ var myVar = 85;
+
+ myVar++;
+ console.log(myVar);
+
+ var myVar = 12;
+
+ myVar--;
+
+ var ourDecimal = 6.3;
+
+ var myDecimal = 0.004
+
+ var product = 4.0 * 8.0;
+ console.log(product)
+
+ var quotient = 5.5 / 0.2;
+ console.log(quotient)
+
+ // remainder
+
+ var remainder;
+ remainder = 11 % 3;
+ console.log(remainder)
+
+ // more shortcuts
+
+ var a = 4;
+
+ a = a + 13;
+
+ a += 13;
+
+var a = 12;
+
+a -= 6;
+console.log(a)
+
+var b = 6;
+
+b *= 7;
+
+var c = 43
+
+c /= 11
+
+// Declaring String Variables
+
+var firstName = "David";
+var lastName = "Smith";
+
+var myFirstName = "John";
+var myLastName = "Marston";
+
+// Escaping Literal Quotes
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
+console.log(myStr)
+
+var myStr = '<a href="httpe://www.example.com" target="_blank">Link</a>'; 
+console.log(myStr)
+
+/****
+CODE OUTPUT
+
+\' single quote
+\" double quote
+\\ backslash
+\n newline
+\r carraige return
+\t tab
+\b backspace
+\f form feed
+****/
+
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
+
+// Plus Operator
+
+var ourStr = "I come first. "; 
+ourStr += "I come second.";
+console.log(ourStr)
+
+var myStr = "This is the start. " + "This is the end."
+console.log(myStr);
+
+// Constructing Strings with Variables
+
+ var myName = "Visual Studio Code";
+ var myStr = "Hello, the name of this program is " + ourName + ", do you like it?";
+console.log(myStr)
+
+var someAdjective = "worthwhile";
+var myStr = "Learning to code is ";
+myStr += someAdjective
+
+// length of a string
+
+var firstNameLength = 0;
+var firstName = "George";
+
+firstNameLength = firstName.length;
+console.log(firstNameLength)
+
+var firstLetterOfLastName = "";
+var lastName = "Wesker";
+
+firstLetterOfLastName = lastName[2];
+console.log(firstLetterOfLastName)
+
+var firstName = "Leon";
+var lastLetterOfFirstName = "lastName[lastName.length - 1]";
+
+var lastName = "Harris";
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+// String Immutability 
+
+var myStr = "Jello World";
+
+myStr = "Hello World";
+
+// Word Blanks 
+
+function wordBlanks (myNoun, myAdjective, myVerb, myAdverb) {
+
+var result = "";
+result += "My " + myAdjective + " " + myNoun + " " + myVerb + " to the house "  + myAdverb + ". ";
+return result;
+}
+
+console.log(wordBlanks("cat", "big", "ran","quickly"));
+console.log(wordBlanks("bike", "slow", "flew", "slowly"));
+
+// Arrays
+
+var ourArray = ["John", 23]
+
+var myArray = ["Quincy", 1];
+
+
+var myArray = [["Cows", 23], ["White Socks", 21]];
+
+//Array Data and Modifying it
+
+var ourArray = [60,70,80];
+var ourData = ourArray[0];
+console.log(ourData)
+
+var myArray = [19, 65, 88];
+myArray[0] = 45;
+console.log(myArray)
+
+//Access Multi-Dimensional Arrays
+
+//Always count with 0 first
+
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var myData = myArray[1][2];
+console.log(myData);
+
+//push(), pop(), shift(), and unshift()
+
+var myArray = [["Jake", 14], ["dog", 5]];
+myArray.push(["cat", 6])
+
+var myArray = [["Josh", 54], ["hamster", 9]];
+var removedFromMyArray = myArray.pop();
+console.log(myArray)
+// removedFromOurArray now equals 3, and ourArray now equals ["hamster", 9]
+
+var myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray = myArray.shift();
+
+var myArray = [["David", 36], ["mouse", 2]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+// Shopping List
+
+var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 2]]
+
+//Reusable with Functions
+
+function ourReusableFunction() {
+ console.log("Hi console!");
+}
+
+ourReusableFunction();
+ourReusableFunction();
+ourReusableFunction();
+
+// Arguments
+
+function functionWithArgs(a, b) {
+console.log(a + b);
+}
+
+functionWithArgs(12, 6)
+
+// Global Scope
+
+var myGlobal = 10;
+
+function fun1() {
+ ooopsGlobal = 5;
+}
+
+// Local scope
+
+ function myLocalScope() {
+  var myVar = 5;
+  console.log(myVar);
+ }
+ myLocalScope();
+
+
+// Global vs Local
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+ var outerWear = "sweater";
+ 
+ return outerWear;
+}
+
+console.log(myOutfit());
+console.log(outerWear);
+
+</script>
+</body>
+
+</html>
