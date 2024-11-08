@@ -1,0 +1,11 @@
+.LP {
+ background-color: gray;
+ color: white;
+ padding: 18px;
+ width: 98%;
+ border: none;
+ text-align: left;
+ outline: none;
+ font-size: 18px;
+}
+

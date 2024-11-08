@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Phonebook</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="index.js"></script>
+
+<!--This project started on 10/25/2024-->
+
+<h2>My Phonebook</h2><br>
+
+
+<div id="infoDiv">
+ <form action="" onSubmit="!!(appendNameOne(event) & appendNameTwo(event) & appendNameThree(event));">
+   <fieldset>
+   <legend>Enter your information: </legend>
+   <input type="text" id="firstName"><br><br>
+   <input type="text" id="lastName"><br><br>
+   <input type="text" id="phoneNumber"><br><br>
+   <input type="submit" value="Add to list"><br><br>
+  </fieldset>
+ </form>
+</div><br><br>
+
+
+<div class="LP">First Names:</div>
+<p id="fname_roster">Current list:<br>Empty</p><br>
+
+<div class="LP">Last Names:</div>
+<p id="lname_roster">Current list:<br>Empty</p><br>
+
+<div class="LP">Phone Numbers:</div>
+<p id="phone_roster">Current list:<br>Empty</p>
+
+
+</body>
+</html>
+
