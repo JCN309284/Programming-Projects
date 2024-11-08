@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Odd or Even</title>
+</head>
+<body>
+<!--This project started on 10/24/24 and finished on 10/25/24-->
+
+ <form action="">
+ <label for="oddEven">Enter a Whole Number: </label><br>
+ <input type="number" name="oddEven" id="oddEven">
+ <input type="button" value="Submit" onclick="myFunction()"><br><br>
+<span id="spn"></span>
+</form>
+
+
+<script>
+function myFunction() {
+ var num = Number (document.getElementById("oddEven").value); 
+ if(num%2 == 0)
+{
+ document.getElementById("spn").innerHTML = num + " is even number";
+}
+else
+{
+ document.getElementById("spn").innerHTML = num + " is odd number";
+}
+}
+</script>
+
+
+</body>
+</html>
