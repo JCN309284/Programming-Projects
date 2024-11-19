@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="/index.js"></script>
+</head>
+<body>
+
+<h2>Temperature Conversion</h2>
+
+<form action="">
+<p>Please select for a input number</p>
+<label for="fahrenheit1">F</label>
+<input type="radio" name="radioBtns" id="fahrenheit1">
+<label for="celcius1">C</label>
+<input type="radio" name="radioBtns" id="celcius1">
+<label for="kelvin1">K</label>
+<input type="radio" name="radioBtns" id="kelvin1">
+</form>
+
+<form action="">
+<p>Please select for a convert number</p>
+<label for="fahrenheit2">F</label>
+<input type="radio" name="radioBtns" id="fahrenheit2">
+<label for="celcius2">C</label>
+<input type="radio" name="radioBtns" id="celcius2">
+<label for="kelvin2">K</label>
+<input type="radio" name="radioBtns" id="kelvin2">
+</form><br><br>
+
+<label for="numberInput">Input a number:</label>
+<input type="number" id="numberInput" oninput="myFunction(this.value)">
+
+ <p>Converer:</p>
+<p id="numberDisplay"></p>
+
+</body>
+</html>
