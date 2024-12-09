@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="index.js"></script>
+</head>
+<body>
+<!--In this project, you will create a gradebook project. You will prompt the user for their first name, last
+name and three grades. See the web form below. This project will require you to demonstrate how to
+pass arguments from one function to another. You will have four functions as follows:
+Calculate()
+Average()
+LetterGrade()
+Display()
+Average(grade1, grade2,
+grade3) LetterGrade(average)
+Display(firstname,lastname,
+grade1,grade2,grade3,avera
+ge,lettergrade
+-->
+
+
+  <label for="firstname">First Name </label>
+  <input type="text" id="firstname"><br>
+  <label for="lastname">Last Name </label>
+  <input type="text" id="lastname"><br>
+  <label for="gradeOne">Grade 1 </label>
+  <input type="number" id="gradeOne"><br>
+  <label for="gradeSecond">Grade 2</label>
+  <input type="number" id="gradeSecond"><br>
+  <label for="gradeThird">Grade 3</label>
+  <input type="number" id="gradeThird"><br><br>
+  <button onclick="Display() , Calculate() , Average() , LetterGrade()">Calculate</button>
+
+<br><br>
+
+<div id="fullname">Full Name:</div>
+  <br>
+  <div id="grade1">Grade 1:</div>
+  <div id="grade2">Grade 2:</div>
+  <div id="grade3">Grade 3:</div>
+  <div id="average">Average:</div>
+  <div id="lettergrade">Letter Grade:</div>
+
+</body>
+</html>
