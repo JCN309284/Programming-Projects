@@ -1,0 +1,13 @@
+body {background-color: rgb(168, 218, 168);}
+
+.Form1 {width: 200px;
+ float: left;
+ height: 150px;
+ margin: 50px;
+}
+
+.Form2 {width: 1400px;
+ height: 150px;
+ float: right;
+ margin: 50px;
+}
