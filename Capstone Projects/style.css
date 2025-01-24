@@ -1,0 +1,146 @@
+/* This is the navigation bar */
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #161616;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+/* Automatic Slideshow CSS */
+
+.slideshow-container {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: #ffffff;
+  position: absolute;
+  bottom: 120px;
+  right: 10%;
+}
+
+.logo {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+  z-index: 10;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from { opacity: .4; } 
+  to { opacity: 1; }
+}
+
+/* text size changes */
+
+h1 {
+font-size: 2.5em;
+}
+
+
+/*Product Card*/
+
+.card {
+  padding: 5px;
+  background-color: #1b1b1b;
+  max-width: 300px;
+  margin: left;
+  text-align: center;
+  font-family: Arial;
+}
+
+.card button {
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #303030;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/*Shopping cart*/
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1100px;
+  min-height: 100vh;
+}
+
+aside,
+main {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+}
